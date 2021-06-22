@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_animation"
     tools:context=".ViewAll">
+    
+    <TextView
+        android:id="@+id/recfound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:text="No records found!" />
 
     <!--recycler view for displaying our courses-->
     <androidx.recyclerview.widget.RecyclerView

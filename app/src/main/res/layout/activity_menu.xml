@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingHorizontal="50dp"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/menulinlay"
+    android:padding="50dp"
+    tools:context=".Menu">
+
+
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/btnAdd"
+          android:layout_width="116dp"
+          android:layout_height="116dp"
+          android:layout_margin="10dp"
+          android:background="@drawable/btnbg"
+          android:drawableTop="@drawable/ic_add"
+          android:paddingBottom="10dp"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:paddingTop="2dp"
+          android:text="\nAdd new\n Password"
+          android:textColor="@color/colorPrimary" />
+
+      <Button
+          android:id="@+id/btnView"
+          android:layout_width="116dp"
+          android:layout_height="116dp"
+          android:layout_margin="10dp"
+          android:background="@drawable/btnbg"
+          android:drawableTop="@drawable/ic_view"
+          android:paddingBottom="10dp"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:paddingTop="2dp"
+          android:text="\nView a\n Password"
+          android:textColor="@color/colorPrimary" />
+
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:orientation="horizontal"
+       android:paddingTop="10dp">
+
+      <Button
+          android:id="@+id/btnUpdate"
+          android:layout_width="116dp"
+          android:layout_height="116dp"
+          android:layout_margin="10dp"
+          android:background="@drawable/btnbg"
+          android:drawableTop="@drawable/ic_update"
+          android:paddingBottom="10dp"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:paddingTop="2dp"
+          android:text="\nUpdate a\n Password"
+          android:textColor="@color/colorPrimary" />
+
+      <Button
+          android:id="@+id/btnDelete"
+          android:layout_width="116dp"
+          android:layout_height="116dp"
+          android:layout_margin="10dp"
+          android:background="@drawable/btnbg"
+          android:drawableTop="@drawable/ic_delete"
+          android:paddingBottom="10dp"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:paddingTop="2dp"
+          android:text="\nDelete a\n Password"
+          android:textColor="@color/colorPrimary" />
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:orientation="horizontal"
+       android:paddingTop="10dp">
+
+      <Button
+          android:id="@+id/btnViewAll"
+          android:layout_width="116dp"
+          android:layout_height="116dp"
+          android:layout_margin="10dp"
+          android:background="@drawable/btnbg"
+          android:drawableTop="@drawable/ic_viewall"
+          android:paddingBottom="10dp"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:paddingTop="2dp"
+          android:text="\nView all\nPasswords"
+          android:textColor="@color/colorPrimary" />
+
+      <Button
+          android:id="@+id/btnClose"
+          android:layout_width="116dp"
+          android:layout_height="116dp"
+          android:layout_margin="10dp"
+          android:background="@drawable/btnbg"
+          android:drawableTop="@drawable/ic_close"
+          android:paddingBottom="10dp"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:paddingTop="2dp"
+          android:text="\nClose\nApp"
+          android:textColor="@color/colorPrimary" />
+
+   </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

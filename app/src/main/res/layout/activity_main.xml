@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/mylinearmainlayout"
+    android:gravity="center"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="200dp"
+
+        android:src="@drawable/icon" />
+
+
+
+    <TextView
+        android:id="@+id/authStatusTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Click button for Fingerprint Login"
+        android:textStyle="bold"
+        android:textColor="#9E162A8F"/>
+    <Button
+        android:id="@+id/authBtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Authenticate"
+        android:layout_below="@+id/authStatusTv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_fingerprint_white"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+
+</LinearLayout>
